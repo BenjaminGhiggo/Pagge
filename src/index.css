@@ -1,0 +1,100 @@
+body {
+    margin: 0;
+    font-family: 'Comic Sans MS', 'Chalkboard SE', sans-serif;
+    background-color: #000;
+    color: #fff;
+  }
+  
+  .sidebar {
+    width: 6%;  /* Aumenta el ancho del sidebar */
+    background-color: #2d2d2d;
+    height: 100vh;
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+  }
+  
+  .sidebar a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #fff;
+    margin: 20px 0;
+    flex-direction: column;
+    width: 100%;  /* Asegura que los enlaces ocupen todo el ancho del sidebar */
+  }
+  
+  .sidebar .icon-text {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .sidebar img {
+    width: 68px;  /* Aumenta el tamaño de los iconos */
+    height: 68px; /* Aumenta el tamaño de los iconos */
+    margin-bottom: 5px;
+  }
+  
+  .content {
+    margin-left: 10%;  /* Ajusta el margen izquierdo para compensar el ancho del sidebar */
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .chat-window {
+    background-color: #48a999;
+    width: calc(100% - 40px);
+    height: 500px;  /* Ajusta este valor según el tamaño deseado */
+    margin: 20px auto 0;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+  }
+  
+  .chat-input {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    background-color: #2d2d2d;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+  }
+  
+  .chatbot-main-icon {
+    width: 84px;  /* Ajusta este valor según el tamaño deseado */
+    height: 84px; /* Ajusta este valor según el tamaño deseado */
+    margin-right: 10px;
+  }
+  
+  .chat-input-text {
+    flex: 1;
+    padding: 15px;
+    margin-right: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 25px;
+    outline: none;
+  }
+  
+  .chat-input-button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    margin-left: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 84px;  /* Ajusta este valor según el tamaño deseado */
+    height: 84px; /* Ajusta este valor según el tamaño deseado */
+  }
+  
+  .icon {
+    width: 100%;  /* Ajusta este valor según el tamaño deseado */
+    height: 100%; /* Ajusta este valor según el tamaño deseado */
+  }
+  

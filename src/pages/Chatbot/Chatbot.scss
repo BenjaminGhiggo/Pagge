@@ -1,0 +1,99 @@
+.chatbot-page {
+    display: flex;
+  
+    .sidebar {
+      width: 6%;
+      background-color: #2d2d2d;
+      height: 100vh;
+      position: fixed;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: 10px;
+  
+      .icon-text {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        text-decoration: none;
+        color: #fff;
+        margin: 20px 0;
+        width: 100%;
+        text-align: center;
+  
+        img {
+          width: 68px;
+          height: 68px;
+          margin-bottom: 5px;
+        }
+      }
+    }
+  
+    .content {
+      margin-left: 6%; /* Ajusta el margen izquierdo para compensar el ancho del sidebar */
+      width: 94%; /* Ajusta el ancho del contenido */
+      padding: 20px;
+      text-align: center;
+  
+      h1 {
+        margin-top: 20px;
+        margin-bottom: 20px;
+      }
+  
+      .chat-window {
+        background-color: #48a999;
+        width: 90%; /* Ajusta el ancho según sea necesario */
+        max-width: 1200px; /* Ancho máximo para el chat */
+        height: 600px; /* Ajusta la altura según sea necesario */
+        margin: 20px auto;
+        border-radius: 15px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+      }
+  
+      .chat-input {
+        display: flex;
+        align-items: center;
+        padding: 20px;
+        background-color: #2d2d2d;
+        border-bottom-left-radius: 15px;
+        border-bottom-right-radius: 15px;
+      }
+  
+      .chatbot-main-icon {
+        width: 84px;
+        height: 84px;
+        margin-right: 10px;
+      }
+  
+      .chat-input-text {
+        flex: 1;
+        padding: 15px;
+        margin-right: 10px;
+        border: none;
+        border-radius: 5px;
+        font-size: 25px;
+        outline: none;
+      }
+  
+      .chat-input-button {
+        background-color: transparent;
+        border: none;
+        cursor: pointer;
+        margin-left: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 84px;
+        height: 84px;
+      }
+  
+      .icon {
+        width: 100%;
+        height: 100%;
+      }
+    }
+  }
+  

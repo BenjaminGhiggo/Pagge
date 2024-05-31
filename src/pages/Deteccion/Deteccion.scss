@@ -1,0 +1,87 @@
+.deteccion-page {
+    display: flex;
+  
+    .sidebar {
+      width: 6%;
+      background-color: #2d2d2d;
+      height: 100vh;
+      position: fixed;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: 10px;
+  
+      .icon-text {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        text-decoration: none;
+        color: #fff;
+        margin: 20px 0;
+        width: 100%;
+        text-align: center;
+  
+        img {
+          width: 68px;
+          height: 68px;
+          margin-bottom: 5px;
+        }
+      }
+    }
+  
+    .content {
+      margin-left: 6%; /* Ajusta el margen izquierdo para compensar el ancho del sidebar */
+      width: 94%; /* Ajusta el ancho del contenido */
+      padding: 20px;
+      text-align: center;
+  
+      h1 {
+        margin-top: 20px;
+        margin-bottom: 20px;
+      }
+  
+      .detection-window {
+        background-color: #48a999;
+        width: 80%; /* Ajusta el ancho según sea necesario */
+        max-width: 1200px; /* Ancho máximo */
+        height: 600px; /* Ajusta la altura según sea necesario */
+        margin: 20px auto;
+        border-radius: 15px;
+        display: flex;
+        flex-direction: row; /* Ajusta para que los elementos estén en fila */
+        justify-content: space-between;
+        align-items: flex-start; /* Alinea elementos al inicio */
+  
+        .buttons {
+          display: flex;
+          flex-direction: column;
+          align-items: flex-start;
+          margin: 20px;
+          flex: 1;
+          justify-content: space-around; /* Distribuye el espacio entre los botones */
+  
+          button {
+            margin: 10px 0;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 24px; /* Ajusta el tamaño de la fuente */
+            background-color: transparent;
+            color: #000;
+            text-align: left;
+            font-family: 'Comic Sans MS', 'Chalkboard SE', sans-serif; /* Ajusta la fuente */
+          }
+        }
+  
+        .detection-area {
+          background-color: #3b3b3b;
+          width: 70%;
+          height: 100%;
+          border-radius: 15px;
+        }
+      }
+    }
+  }
+  
